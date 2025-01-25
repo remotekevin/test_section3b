@@ -39,6 +39,19 @@ int main(void) {
         break;
     case 3:
         // Call subtract function (placeholder)
+        // Declare a function pointer
+        unsigned long long (*funcPtr)(int, int);
+
+        // Assign the address of exampleFunction to the function pointer
+        funcPtr = factorial;
+
+        // Use the function pointer to call the function 
+        int result = funcPtr(5, 4);
+
+        printf("result:%ld\n", result);
+        //printf("result:%ld\n", 5*4*3*2*1);
+
+
         break;
     case 4:
         // Call calculate_area function (placeholder)
