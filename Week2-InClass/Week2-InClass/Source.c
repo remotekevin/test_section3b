@@ -42,11 +42,12 @@ int main(void) {
         break;
     case 4:
         // Call calculate_area function (placeholder)
+        printf("This is only test2 on January 24th");
+        
         break;
     case 5:
         // Call factorial function (placeholder)
-        printf("This is only test");
-        
+                
         //
         // Reference from the SENG1070 course material
         // Declare a function pointer
